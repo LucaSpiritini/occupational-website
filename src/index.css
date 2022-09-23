@@ -1,8 +1,10 @@
 * {
+  max-width: 1200px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-synthesis: none;
+  margin: auto;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

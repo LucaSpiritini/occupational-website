@@ -1,11 +1,12 @@
+import { NavLink } from "react-router-dom";
 import BtnNav from "./BtnNav"
 
 import "./styles.css"
 
 const pages = [
-  { title: "home", arrow: false, link:"/" },
-  { title: "about", arrow: false, link:"/about" },
-  { title: "contact", arrow: false, link:"/contact" },
+  { title: "Home", arrow: false, link:"/" },
+  { title: "About", arrow: false, link:"/about" },
+  { title: "Contact", arrow: false, link:"/contact" },
 ]
 
 const Navbar = () => {
@@ -14,7 +15,9 @@ const Navbar = () => {
 
       <div className="navbar-left">
         <div className="logo">
-          <a href="/">Dr Sotelo</a>
+          <NavLink to="/">
+            Dr Sotelo
+          </NavLink>
         </div>
       </div>
 

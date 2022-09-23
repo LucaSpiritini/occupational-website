@@ -4,13 +4,12 @@ const BtnNav = ({ page }) => {
   return (
     <>
       {
-        <div
+        <NavLink
           className="each-link"
-          component={NavLink}
           to={page.link}
         >
           {page.title}
-        </div>
+        </NavLink>
       }
     </>
   );
